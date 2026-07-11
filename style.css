@@ -238,6 +238,60 @@ body{
     color:white;
     border:none;
 }
+.hackathon{
+    width:80%;
+    margin:70px auto;
+    text-align:center;
+    background:#f5f7ff;
+    padding:60px 40px;
+    border-radius:15px;
+}
+
+.hackathon h2{
+    font-size:36px;
+    color:#1e3a8a;
+    margin-bottom:15px;
+}
+
+.hackathon p{
+    color:#555;
+    margin-bottom:40px;
+}
+
+.hackathon-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.hack-card{
+    background:white;
+    width:220px;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.hack-card h3{
+    color:#2563eb;
+    margin-bottom:10px;
+}
+
+.hack-btn{
+    margin-top:40px;
+    padding:12px 30px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:6px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.hack-btn:hover{
+    background:#1d4ed8;
+}
     
 
 
