@@ -292,7 +292,9 @@ body{
 .hack-btn:hover{
     background:#1d4ed8;
 }
-    
-
-
-
+.footer{
+    width:100%;
+    background:#0f1b2d;
+    padding:60px 8%;
+    color:white;
+}
