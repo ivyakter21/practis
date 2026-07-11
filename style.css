@@ -125,6 +125,119 @@ body {
 .speaker-card p {
     margin-top: 0;
 }
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#fff;
+}
+
+.pricing{
+    width:100%;
+    padding:80px 8%;
+}
+
+.heading{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.heading h1{
+    font-size:60px;
+    color:#162337;
+    font-weight:700;
+}
+
+.heading p{
+    margin-top:15px;
+    color:#666;
+    font-size:20px;
+}
+
+.pricing-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
+
+.card{
+    width:360px;
+    padding:35px;
+    border:1px solid #ddd;
+    border-radius:15px;
+    background:white;
+}
+
+.card h5{
+    color:#777;
+    margin-bottom:15px;
+}
+
+.card h2{
+    font-size:60px;
+    color:#162337;
+}
+
+.card span{
+    color:#777;
+}
+
+.card hr{
+    margin:25px 0;
+}
+
+.card ul{
+    list-style:none;
+}
+
+.card ul li{
+    margin:18px 0;
+    color:#444;
+    position:relative;
+    padding-left:18px;
+}
+
+.card ul li::before{
+    content:"•";
+    color:#2563eb;
+    position:absolute;
+    left:0;
+}
+
+.card button{
+    width:100%;
+    padding:15px;
+    margin-top:25px;
+    border-radius:10px;
+    border:2px solid #2563eb;
+    background:white;
+    color:#2563eb;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.active{
+    background:#0f1b2d;
+    color:white;
+}
+
+.active h2,
+.active span,
+.active li,
+.active h5{
+    color:white;
+}
+
+.active button{
+    background:#2563eb;
+    color:white;
+    border:none;
+}
     
 
 
