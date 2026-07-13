@@ -55,11 +55,11 @@ body {
 
 
 .hero-btn {
-    margin-top: 50px;
+    margin-top: 60px;
     background-color: #2563eb;
     color:white
     border:none
-    padding: 10px 20px;
+    padding: 30px 40px;
     border-radius: 5px;
     border:none;
 }
@@ -133,7 +133,7 @@ body {
 
 body{
     font-family:Arial, sans-serif;
-    background:#fff;
+    background:#f3e7e7;
 }
 
 .pricing{
@@ -297,4 +297,14 @@ body{
     background:#0f1b2d;
     padding:60px 8%;
     color:white;
+}
+.social-icons{
+color:white;
+    font-size:40px;
+    margin-left:20px
+    margin-decoration:border-box;
+}
+.social-icons a:hover{
+    color: #2563eb;
+    
 }
